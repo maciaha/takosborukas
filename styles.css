@@ -24,7 +24,8 @@
   top: 50%;
   transform: translateY(-50%);
   text-transform: uppercase;
-  color: #F01919
+  color: #F01919;
+  font-family: "broadway", Times, serif;
 }
 .btn {
   font-size: 18px;
@@ -35,6 +36,10 @@
 }
 .container {
   margin: 4% auto;
+}
+
+.container-fluid {
+  font-family: "broadway", Times, serif;
 }
 
 #icon {
@@ -75,7 +80,4 @@ h2 {
 .me {
 width: 500px;
   height: 400px;
-}
-.king {
-
 }
