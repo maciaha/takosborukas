@@ -20,6 +20,7 @@
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
 }
+
 .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
@@ -36,11 +37,31 @@
 }
 .container {
   margin: 4% auto;
+  background-color: black;
 }
 
 .container-fluid {
 font-family: 'Playfair Display', serif;
 
+}
+.aboutus {
+  font-size: 150px;
+  font-family: "showcard gothic", cursive, sans-serif;
+  text-shadow: 1px 2px 2px #1C6EA4;
+  text-align: center;
+
+  background: #F01919;
+  background: -moz-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
+  background: -webkit-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
+  background: radial-gradient(ellipse at center, #F01919 0%, #FFFFFF 74%, #000000 100%);
+
+
+}
+.ourstory {
+  font-size: 50px;
+  font-family: "freestyle script", cursive, sans-serif;
+  text-decoration: underline;
+  text-align: center;
 }
 
 #icon {
