@@ -1,13 +1,15 @@
-.navbar {
+.navbar  {
   margin-bottom: 0;
   border-radius: 0;
   background-color: #DE2222;
+
   color: #FFF;
   padding: 1% 0;
   font-size: 1.2cm;
   border: 0;
 
 }
+
 .navbar-brand {
   float: left;
   min-height: 55px;
@@ -28,6 +30,7 @@
   color: #F01919;
   font-family: "broadway", Times, serif;
 }
+
 .btn {
   font-size: 18px;
   color: #FFF;
@@ -37,7 +40,7 @@
 }
 .container {
   margin: 4% auto;
-  background-color: black;
+
 }
 
 .container-fluid {
@@ -54,7 +57,6 @@ font-family: 'Playfair Display', serif;
   background: -moz-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
   background: -webkit-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
   background: radial-gradient(ellipse at center, #F01919 0%, #FFFFFF 74%, #000000 100%);
-
 
 }
 .ourstory {
