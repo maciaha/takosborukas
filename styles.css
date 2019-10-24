@@ -41,6 +41,7 @@
 .container {
   margin: 4% auto;
 
+
 }
 
 .container-fluid {
@@ -68,21 +69,12 @@ font-family: 'Playfair Display', serif ;
 }
 /*styles for menu page*/
 .menu{
-  background-color: black;
   color: #FFF;
-  width: auto;
-  border: 15px;
-  padding:50px;
-  height: 500px;
-  -moz-column-count: 2;
-   -moz-column-gap: 20px;
-   -moz-column-fill: auto;
-   -webkit-column-count: 2;
-   -webkit-column-gap: 20px;
-   -webkit-column-fill: auto;
-   column-count: 2;
-   column-gap: 20px;
-   column-fill: auto;
+  background-color: inherit;
+  margin: 20px;
+  list-style-type: none;
+
+
 }
 #icon {
   max-width: 200px;
@@ -135,22 +127,3 @@ width: 500px;
 
 
 /*styes for testimonial page*/
-.stars{
-  color: #6ab04c;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width:960px) {
-  .col{
-    flex: 100%;
-    max-width: 80%;
-    
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .col{
-    flex: 100%;
-    max-width: 100%;
-  }
-}
