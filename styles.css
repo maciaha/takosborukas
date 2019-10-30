@@ -70,11 +70,17 @@ font-family: 'Playfair Display', serif ;
 /*styles for menu page*/
 .menu{
   color: #FFF;
-  background-color: inherit;
   margin: 20px;
   list-style-type: none;
-
-
+}
+.menu-1{
+  color: #FFF;
+  margin: 20px;
+  list-style-type: none;
+}
+.container{
+  list-style-type:
+  color:#FFF;
 }
 #icon {
   max-width: 200px;
@@ -127,3 +133,38 @@ width: 500px;
 
 
 /*styes for testimonial page*/
+
+.page-header {
+  border: 4px double #D12600;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.6px;
+  word-spacing: 1.4px;
+  color: #D12600;
+  font-weight: normal;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+.name {
+text-align: center;
+font-family: Impact, Charcoal, sans-serif;
+font-size: 29px;
+letter-spacing: 0.6px;
+word-spacing: 1.4px;
+color: #D12600;
+font-weight: normal;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+
+}
+
+.testament {
+  text-align: center;
+  border: 4px double #D12600;
+}
