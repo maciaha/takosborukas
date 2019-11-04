@@ -14,6 +14,7 @@
   float: left;
   min-height: 55px;
   padding: 0 15px 5px;
+
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
@@ -49,39 +50,27 @@ font-family: 'Playfair Display', serif ;
 
 }
 /* Styles for aboutus page*/
-.aboutus {
-  font-size: 150px;
-  font-family: "showcard gothic", cursive, sans-serif;
-  text-shadow: 1px 2px 2px #1C6EA4;
-  text-align: center;
 
-  background: #F01919;
-  background: -moz-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
-  background: -webkit-radial-gradient(center, #F01919 0%, #FFFFFF 74%, #000000 100%);
-  background: radial-gradient(ellipse at center, #F01919 0%, #FFFFFF 74%, #000000 100%);
-
-}
-.ourstory {
-  font-size: 50px;
-  font-family: "freestyle script", cursive, sans-serif;
-  text-decoration: underline;
-  text-align: center;
 }
 /*styles for menu page*/
-
-.platillos{
-  color: black;
-  margin bottom: 0;
-  border-radius: 0;
+.body{
   background-color: white;
 }
+.platillos{
+  color: black;
+  margin: 0;
+  border-radius: 0;
+  background: white;
+font-family: 'Open Sans', sans-serif;
+
+}
 .heading{
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
 text-decoration: underline;
   color: 	#8B0000;
 }
-.h2{
-  color: red;
+.h1{
+  text-transform: capitalize;
 }
 
 #icon {
