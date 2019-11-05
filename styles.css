@@ -1,7 +1,7 @@
 .navbar  {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #DE2222;
+  background-color: black;
 
   color: #FFF;
   padding: 1% 0;
@@ -17,8 +17,8 @@
 
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  color: #FFF;
-  background-color:#DE2222;
+  color: #D5D5D5;
+  background-color: black;
 }
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
@@ -55,23 +55,23 @@ font-family: 'Playfair Display', serif ;
 /*styles for menu page*/
 .body{
   background-color: white;
+  text-align: center;
 }
-.platillos{
+.container{
   color: black;
-  margin: 0;
-  border-radius: 0;
+  margin: 0px 50px;
+text-align: center;
   background: white;
-font-family: 'Open Sans', sans-serif;
+
 
 }
 .heading{
-font-family: 'Rubik Mono One', sans-serif;
+font-family:
 text-decoration: underline;
   color: 	#8B0000;
+  text-align: center;
 }
-.h1{
-  text-transform: capitalize;
-}
+
 
 #icon {
   max-width: 200px;
