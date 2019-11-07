@@ -1,3 +1,6 @@
+
+
+
 .navbar  {
   margin-bottom: 0;
   border-radius: 0;
@@ -54,16 +57,12 @@ font-family: 'Playfair Display', serif ;
 }
 /*styles for menu page*/
 .body{
-  background-color: white;
   text-align: center;
 }
+
 .container{
-  color: black;
-  margin: 0px 50px;
+  color: white;
 text-align: center;
-  background: white;
-
-
 }
 .heading{
 font-family:
