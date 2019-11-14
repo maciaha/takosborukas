@@ -55,9 +55,9 @@ font-family: 'Playfair Display', serif ;
 /* Styles for aboutus page*/
 
 }
-/*styles for menu page*/
-.text-center{
-  font-size: 30%;
+/*styles for home page*/
+h1{
+  font-size: 30px;
 }
 
 
@@ -107,7 +107,10 @@ width: 500px;
 .story {
   text-align: center;
 }
-
+/*styles for menu page*/
+h1{
+  font-size: 30px;
+}
 
 
 
