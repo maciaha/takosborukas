@@ -53,12 +53,21 @@ font-family: 'Playfair Display', serif ;
 
 }
 /* Styles for aboutus page*/
+.aboutus {
 
 }
+
+
+
+
+
+
+
+
+
+
 /*styles for home page*/
-h1{
-  font-size: 30px;
-}
+
 
 
 #icon {
@@ -81,16 +90,6 @@ footer {
 color: #D5D5D5;
 text-decoration: none;
 }
-@media (max-width: 900px) {
-  .fa {
-    font-size: 20px;
-    padding: 10px;
-  }
-
-@media (max-width: 600px) {
-  .carousel-caption
-    display: none;
-}
 #icon {
   max-width: 150px;
 
@@ -108,8 +107,9 @@ width: 500px;
   text-align: center;
 }
 /*styles for menu page*/
-h1{
-  font-size: 30px;
+h1 {
+  font-size: 70px;
+  text-decoration: underline;
 }
 
 
@@ -156,8 +156,19 @@ img {
 display: block;
 margin-left: auto;
 margin-right: auto;
-
+}
 
 
 
 /* styles for contact page */
+
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+@media (max-width: 600px) {
+  .carousel-caption
+    display: none;
+}
