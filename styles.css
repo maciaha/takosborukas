@@ -32,7 +32,7 @@
   transform: translateY(-50%);
   text-transform: uppercase;
   color: #F01919;
-  font-family: "broadway", Times, serif;
+font-family: "broadway", Times, serif;
 }
 
 .btn {
@@ -49,7 +49,7 @@
 }
 
 .container-fluid {
-font-family: 'Playfair Display', serif ;
+
 
 }
 /* Styles for aboutus page*/
@@ -108,8 +108,10 @@ width: 500px;
 }
 /*styles for menu page*/
 h1 {
-  font-size: 70px;
+  font-family: 'Suez One', serif;
+  font-size: 85px;
   text-decoration: underline;
+  text-transform: capitalize;
 }
 
 
@@ -119,7 +121,7 @@ h1 {
 .page-header {
   border: 4px double #D12600;
   text-align: center;
-  font-family: Impact, Charcoal, sans-serif;
+font-family: Impact, Charcoal, sans-serif;
   font-size: 40px;
   letter-spacing: 0.6px;
   word-spacing: 1.4px;
