@@ -37,10 +37,10 @@ font-family: "broadway", Times, serif;
 
 .btn {
   font-size: 18px;
-  color: #FFF;
+  color: red;
   padding: 12px 22px;
- background:#DE2222;
- border: 2px solid #0D0D0D;
+ background:white;
+ border: 2px solid red;
 }
 .container {
   margin: 4% auto;
