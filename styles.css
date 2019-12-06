@@ -1,181 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 
-
-
-.navbar  {
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: black;
-
-  color: #FFF;
-  padding: 1% 0;
-  font-size: 1.2cm;
-  border: 0;
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar-brand {
-  float: left;
-  min-height: 55px;
-  padding: 0 15px 5px;
-
-}
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  color: #D5D5D5;
-  background-color: black;
-}
-.navbar-inverse .navbar-nav li a {
-  color: #D5D5D5;
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Allura', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
 }
 
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-  text-transform: uppercase;
-  color: #F01919;
-font-family: "broadway", Times, serif;
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #a9a9a9;
 }
 
-.btn {
-  font-size: 18px;
-  color: red;
-  padding: 12px 22px;
- background:white;
- border: 2px solid red;
-}
-.container {
-  margin: 4% auto;
-
-
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
 }
 
-.container-fluid {
-
-
-}
-/* Styles for aboutus page*/
-.aboutus {
-
+.main_container{
+	position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-/*styles for home page*/
-
-
-
-#icon {
-  max-width: 200px;
-  margin: 1% auto;
-}
-footer {
-  width: 100%;
-  background-color: #DE2222;
-  padding: 5%;
-  color: #FFF;
-  border: none;
-
-}
-.fa {
-  padding: 15px;
-  font-size: 25px;
-  color: #FFF;
-}
-.fa:hover {
-color: #D5D5D5;
-text-decoration: none;
-}
-#icon {
-  max-width: 150px;
-
-}
-h2 {
-  font-size: 1.7em;
-}
-.me {
-width: 500px;
-  height: 400px;
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-/*styles for about page*/
-.story {
-  text-align: center;
+.logo a{
+	font-family: 'Allura', cursive;
+	font-size: 32px;
+	color: #DC143C;
 }
-/*styles for menu page*/
-h1 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 85px;
-  text-decoration: underline;
-  text-transform: capitalize;
+
+.navbar_items ul{
+	display: flex;
 }
-h4 {
-  border:  10px solid red;
-  font-size: 50px;
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* banner_image */
+.banner_image{
+	background: url('images/background.jfif') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: #fb2274;
 }
 
 
-
-/*styes for testimonial page*/
-
-.page-header {
-  border: 4px double #D12600;
-  text-align: center;
-font-family: Impact, Charcoal, sans-serif;
-  font-size: 40px;
-  letter-spacing: 0.6px;
-  word-spacing: 1.4px;
-  color: #D12600;
-  font-weight: normal;
-  text-decoration: underline solid rgb(68, 68, 68);
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
-}
-.name {
-text-align: center;
-font-family: Impact, Charcoal, sans-serif;
-font-size: 29px;
-letter-spacing: 0.6px;
-word-spacing: 1.4px;
-color: #D12600;
-font-weight: normal;
-text-decoration: underline solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: normal;
-text-transform: none;
-
-
+/* About */
+.about,
+.services,
+.contactus,
+.ourteam{
+	text-align: center;
+	padding: 5% 10%;
 }
 
-.testament {
-  text-align: center;
-  border: 4px double #D12600;
+/* Services */
+.services{
+	background: #f5f5f5;
+}
+
+.diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff_services .diff_services_item {
+    width: 30%;
+}
+
+.diff_services .diff_services_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_services .diff_services_item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+
+/* Contact us */
+.form_wrapper .form_input{
+	margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"]{
+	width: 250px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea{
+	width: 250px;
+	padding: 12px 20px;
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
 }
 
 
-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
 }
 
 
+/* arrow */
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #fb2274;
+	border-radius: 50%;
+	display: none;
+}
 
-/* styles for contact page */
-
-@media (max-width: 900px) {
-  .fa {
-    font-size: 20px;
-    padding: 10px;
-  }
-
-@media (max-width: 600px) {
-  .carousel-caption
-    display: none;
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
 }
