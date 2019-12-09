@@ -5,5 +5,5 @@ Thank you for visiting our website! This site was created for Takos Borukas; a r
 
 Starting out was rocky at first; but once we started to understand HTML and CSS, it seemed almost second hand as we could do anything we wanted to with our newly gained skills. Working together as a team, we could solve any problem we that we encountered and could fine-tune our style to our likings.
 
-Our website includes many improvements and additions such as: •A clean, modern, and user-friendly design compared to their original site •A responsive website for all display types •Embedded social media postings from their Facebook account •Actual customer reviews from Google Reviews and Yelp •An improved restaurant menu with uniform design.
+Our website includes many improvements and additions such as: •A clean, modern, and user-friendly design •A responsive website for all display types •Embedded social media postings from their Facebook account •Actual customer reviews from Google Reviews and Yelp •An improved restaurant menu with uniform design. We didn't put the whole menu in because the owner is going to get professional pictures done for every but he doesn't have them all done during this time.
 Thank you! Sincerely, Kaleah Forrest, Maciaha Marshall, and Frida Arenas
